@@ -290,13 +290,12 @@ class LM:
 if __name__ == "__main__":
     lm = LM()
 
-    """
+    
     #creating language model over all languages.
     for (_, _, filenames) in walk(lm.train_path):
         for each in filenames:
             lm.run(each)
-    """
-
+    
     #some examples!
     no_smoothing, good_turing = lm.log_probability_of_word("accuracy", 3, "udhr-amc")
     print str(no_smoothing) + "|" + str(good_turing)
