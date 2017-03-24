@@ -297,14 +297,14 @@ if __name__ == "__main__":
             lm.run(each)
     
     #some examples!
-    no_smoothing, good_turing = lm.log_probability_of_word("accuracy", 3, "udhr-amc")
+    no_smoothing, good_turing = lm.log_probability_of_word("accuracy", 3, "udhr-eng")
     print str(no_smoothing) + "|" + str(good_turing)
 
-    no_smoothing, good_turing = lm.log_probability_of_word("abbreviation", 3, "udhr-amc")
+    no_smoothing, good_turing = lm.log_probability_of_word("abbreviation", 3, "udhr-eng")
     print str(no_smoothing) + "|" + str(good_turing)
 
-    no_smoothing, good_turing = lm.log_probability_of_word("apple", 3, "udhr-amc")
+    no_smoothing, good_turing = lm.log_probability_of_word("apple", 3, "udhr-eng")
     print str(no_smoothing) + "|" + str(good_turing)
 
-    no_smoothing, good_turing = lm.log_probability_of_word("microsoft", 3, "udhr-amc")
+    no_smoothing, good_turing = lm.log_probability_of_word("microsoft", 3, "udhr-eng")
     print str(no_smoothing) + "|" + str(good_turing)
