@@ -1,5 +1,5 @@
-# Language-Identification
-Language Identification with a Character-level N-gram Language Model
+# Language-Detection
+Language Detection with a Character-level N-gram Language Model
 
 ***Requirements***
 
